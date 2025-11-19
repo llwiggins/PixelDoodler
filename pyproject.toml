@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixeldoodler"
+version = "0.1.0"
+description = "A Tkinter-based GUI tool for pixel-wise image and numpy mask labelling."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Laura Wiggins", email = "l.wiggins@sheffield.ac.uk" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+  "Pillow",
+  "numpy",
+  "tkinterdnd2",
+]
+
+[project.urls]
+Homepage = "https://github.com/llwiggins/pixeldoodler"
+Source = "https://github.com/llwiggins/pixeldoodler"
+Issues = "https://github.com/llwiggins/pixeldoodler/issues"
+
+[project.scripts]
+pixeldoodler = "pixeldoodler:main"

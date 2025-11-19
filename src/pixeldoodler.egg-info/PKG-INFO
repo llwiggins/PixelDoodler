@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: pixeldoodler
+Version: 0.1.0
+Summary: A Tkinter-based GUI tool for pixel-wise image and numpy mask labelling.
+Author-email: Laura Wiggins <l.wiggins@sheffield.ac.uk>
+License: MIT
+Project-URL: Homepage, https://github.com/llwiggins/pixeldoodler
+Project-URL: Source, https://github.com/llwiggins/pixeldoodler
+Project-URL: Issues, https://github.com/llwiggins/pixeldoodler/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: tkinterdnd2
