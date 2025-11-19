@@ -1,0 +1,11 @@
+# macOS Finder junk
+.DS_Store
+
+# Python build / packaging
+*.egg-info/
+build/
+dist/
+
+# Bytecode
+__pycache__/
+*.py[cod]
