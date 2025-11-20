@@ -11,7 +11,7 @@ conda create -n PixelDoodler python=3.11
 conda activate PixelDoodler
 ```
 
-With [Git installed] on your machine, install the PixelDoodler package from GitHub using [pip][pip].
+With [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your machine, install the PixelDoodler package from GitHub using [pip](https://pypi.org/project/pip/).
 
     pip install git+https://github.com/llwiggins/PixelDoodler.git@main
 
@@ -19,4 +19,5 @@ You can then use the tool by running
 ```bash
 pixeldoodler
 ```
+
 
